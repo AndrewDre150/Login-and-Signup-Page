@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dfe9f5;
+}
+.wrapper{
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+h1{
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    color: black;
+}
+form input{
+    width: 92%;
+    outline: none;
+    border: 1px solid white;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #e4e4e4;
+}
+button{
+    background-color: rgb(43, 43, 240);
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    width: 90%;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(27, 27, 109);
+}
+input:focus{
+    border: 1px solid grey;
+}
+.terms{
+    margin-top: 0.2rem;
+}
+.terms input{
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label{
+    font-size: 0.7rem;
+    color: #636363;
+}
+.terms a{
+    text-decoration: none;
+}
+.Member{
+    margin-top: 1.4rem;
+    font-size: 0.8rem;
+    color: #636363;
+}
+.Member a{
+    text-decoration: none;
+}
+.recover{
+    text-align: right;
+    font-size: 0.8rem;
+    margin: 0.3rem 1.4rem 0 0;
+}
+.recover a{
+    text-decoration: none;
+    color: #464647;
+}
